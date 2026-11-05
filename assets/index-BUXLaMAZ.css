@@ -57,3 +57,10 @@
 
 .wl-consent{display:flex;align-items:flex-start;gap:12px}
 .wl-consent-box{width:18px;height:18px;margin-top:4px;flex:none;accent-color:#0e0d0c}
+
+.st-nav-menu,.st-nav-a--m{display:none}
+@media (max-width: 900px){
+  .st-nav-menu{display:flex;position:absolute;left:var(--s-side);top:0;height:100%;align-items:center;padding:0;border:0;background:none;color:inherit;font:400 14px/1 var(--s-font);cursor:pointer}
+  .st-nav-l[data-open=true]{display:flex!important;position:fixed;top:56px;left:0;right:0;flex-direction:column;align-items:stretch;gap:0;padding:4px var(--s-side) 20px;background:#0e0d0c;border-bottom:1px solid var(--s-line-dark)}
+  .st-nav-l[data-open=true] .st-nav-a{display:block;padding:14px 0;border-bottom:1px solid rgba(255,255,255,.1);font-size:20px;opacity:1}
+}

@@ -1,55 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://monition.example/</loc>
+    <loc>https://monition.org/</loc>
     <lastmod>2026-11-04</lastmod>
   </url>
   <url>
-    <loc>https://monition.example/product</loc>
+    <loc>https://monition.org/product</loc>
     <lastmod>2026-11-04</lastmod>
   </url>
   <url>
-    <loc>https://monition.example/practices</loc>
+    <loc>https://monition.org/practices</loc>
     <lastmod>2026-11-04</lastmod>
   </url>
   <url>
-    <loc>https://monition.example/practices/restructuring</loc>
+    <loc>https://monition.org/practices/restructuring</loc>
     <lastmod>2026-11-04</lastmod>
   </url>
   <url>
-    <loc>https://monition.example/practices/real-estate</loc>
+    <loc>https://monition.org/practices/real-estate</loc>
     <lastmod>2026-11-04</lastmod>
   </url>
   <url>
-    <loc>https://monition.example/practices/regulatory</loc>
+    <loc>https://monition.org/practices/regulatory</loc>
     <lastmod>2026-11-04</lastmod>
   </url>
   <url>
-    <loc>https://monition.example/scoring</loc>
+    <loc>https://monition.org/scoring</loc>
     <lastmod>2026-11-04</lastmod>
   </url>
   <url>
-    <loc>https://monition.example/trust</loc>
+    <loc>https://monition.org/trust</loc>
     <lastmod>2026-11-04</lastmod>
   </url>
   <url>
-    <loc>https://monition.example/waitlist</loc>
+    <loc>https://monition.org/waitlist</loc>
     <lastmod>2026-11-04</lastmod>
   </url>
   <url>
-    <loc>https://monition.example/company</loc>
+    <loc>https://monition.org/company</loc>
     <lastmod>2026-11-04</lastmod>
   </url>
   <url>
-    <loc>https://monition.example/journal</loc>
+    <loc>https://monition.org/journal</loc>
     <lastmod>2026-11-04</lastmod>
   </url>
   <url>
-    <loc>https://monition.example/journal/reading-a-creditor-list</loc>
+    <loc>https://monition.org/journal/reading-a-creditor-list</loc>
     <lastmod>2026-11-04</lastmod>
   </url>
   <url>
-    <loc>https://monition.example/journal/how-a-forecast-is-scored</loc>
+    <loc>https://monition.org/journal/how-a-forecast-is-scored</loc>
     <lastmod>2026-11-04</lastmod>
   </url>
 </urlset>

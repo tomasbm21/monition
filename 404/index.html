@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="color-scheme" content="light dark" />
+    <script>
+      // Pre-paint, before any stylesheet: `has-js` always, and `js` only when
+      // reduced motion is not requested (it gates the load moment). Theme
+      // comes from prefers-color-scheme in CSS: nothing is read or stored.
+      // Without JS no class is set and the page is simply finished.
+      (function () {
+        var root = document.documentElement;
+        root.classList.add("has-js");
+        try {
+          var calm = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+          if (!calm) root.classList.add("js");
+        } catch (e) {}
+      })();
+    </script>
+
+    <!-- Fonts are self-hosted (Fontsource, bundled by Vite from src/main.tsx
+         and src/index.css). No request goes to a font CDN. -->
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <!-- The ribbon is dark on every route and in both themes. -->
+    <meta name="theme-color" content="#0B0C0D" />
+
+    <!-- Per-route title, description, canonical and Open Graph tags are
+         written here by scripts/prerender.mjs (see src/lib/meta.ts). -->
+    <title>Page not found — Monition</title>
+    <meta name="description" content="This page does not exist." />
+    <meta name="robots" content="noindex" />
+    <meta property="og:site_name" content="Monition" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Page not found — Monition" />
+    <meta property="og:description" content="This page does not exist." />
+    <meta property="og:image" content="https://monition.example/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Page not found — Monition" />
+    <meta name="twitter:description" content="This page does not exist." />
+    <meta name="twitter:image" content="https://monition.example/og-image.png" />
+    <script type="module" crossorigin src="/assets/index-Lhg1isai.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BUXLaMAZ.css">
+  </head>
+
+  <body>
+    <div id="root"><div class="st-page" data-solid-nav="true"><header class="st-nav" data-solid="true"><a href="#main" class="st-skip">Skip to content</a><div class="st-nav-in"><nav class="st-nav-l" aria-label="Main"><a class="st-nav-a" href="/product">How it works</a><a class="st-nav-a" href="/practices">Practices</a><a class="st-nav-a" href="/scoring">Scoring</a><a class="st-nav-a" href="/trust">Trust</a><a class="st-nav-a" href="/company">Company</a></nav><a class="st-nav-c" aria-label="Monition home" href="/"><span class="st-wordmark" style="font-size:15px">MONITION<span class="st-tittle" aria-hidden="true"></span></span></a><div class="st-nav-r"><a class="st-nav-a" href="/journal">Journal</a><a class="st-btn st-btn--light st-btn--sm" href="/waitlist">Join the waitlist</a></div></div></header><main id="main" tabindex="-1" class="st-main"><section class="st-phero st-phero--paper"><div class="st-wrap st-phero-in"><div class="st-phero-main"><p class="st-crumb">404 · Page not found</p><h1 class="st-phero-h1">This page is not on the record.</h1></div><div class="st-phero-side"><p class="st-phero-lead">The address may be mistyped, or the page has moved. Everything Monition does is one click from here.</p><div class="st-phero-actions"><a class="st-btn st-btn--dark" href="/">Go to the homepage</a><a class="st-btn st-btn--outline" href="/waitlist">Join the waitlist</a></div></div></div></section><div class="st-wrap"><nav class="pg-where" aria-label="Pages"><p class="st-label">Where to go</p><ul><li><a href="/"><span class="pg-where-t">Home<!-- --> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span><span class="pg-where-d">Origination intelligence for law firms, in one page.</span></a></li><li><a href="/product"><span class="pg-where-t">How it works<!-- --> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span><span class="pg-where-d">How Monition reads the record, forecasts, finds a way in and prepares a first draft.</span></a></li><li><a href="/practices"><span class="pg-where-t">Practices<!-- --> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span><span class="pg-where-d">Restructuring, real estate and regulatory, each with a worked example.</span></a></li><li><a href="/scoring"><span class="pg-where-t">Scoring<!-- --> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span><span class="pg-where-d">How every forecast is scored against the record, misses first.</span></a></li><li><a href="/trust"><span class="pg-where-t">Trust<!-- --> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span><span class="pg-where-d">The conduct rules, what happens to your data, and a brief for your general counsel.</span></a></li><li><a href="/waitlist"><span class="pg-where-t">Waitlist<!-- --> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span><span class="pg-where-d">Monition is invite-only. What an invited firm gives, what it gets, and how to join.</span></a></li><li><a href="/company"><span class="pg-where-t">Company<!-- --> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span><span class="pg-where-d">Who is building Monition, and why.</span></a></li><li><a href="/journal"><span class="pg-where-t">Journal<!-- --> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span><span class="pg-where-d">Notes on reading the public record.</span></a></li></ul></nav></div></main><footer class="st-foot"><div class="st-wrap"><div class="st-foot-cols"><nav aria-label="Product"><h2>Product</h2><ul><li><a href="/product">How it works</a></li><li><a href="/product#predict">Forecasts</a></li><li><a href="/product#identify">Identification</a></li><li><a href="/scoring">Scoring</a></li></ul></nav><nav aria-label="Practices"><h2>Practices</h2><ul><li><a href="/practices/restructuring">Restructuring</a></li><li><a href="/practices/real-estate">Real estate</a></li><li><a href="/practices/regulatory">Regulatory</a></li></ul></nav><nav aria-label="Trust"><h2>Trust</h2><ul><li><a href="/trust#conduct">Professional conduct</a></li><li><a href="/trust#data">Data</a></li><li><a href="/trust#gc-brief">Brief for your general counsel</a></li></ul></nav><nav aria-label="Company"><h2>Company</h2><ul><li><a href="/company">About</a></li><li><a href="/journal">Journal</a></li><li><a href="/waitlist">Waitlist</a></li></ul></nav><nav aria-label="Legal"><h2>Legal</h2><ul><li><a href="/privacy">Privacy</a></li><li><a href="/terms">Terms</a></li></ul></nav></div><div class="st-foot-mark" aria-hidden="true"><span class="st-wordmark" style="font-size:200px">MONITION<span class="st-tittle" aria-hidden="true"></span></span></div><div class="st-foot-legal"><span>© 2026 <!-- -->[legal entity]<!-- --> · Monition</span><span>Monition is not a law firm and gives no legal advice.</span><a href="mailto:[contact email]">[contact email]</a></div></div></footer></div></div>
+  </body>
+</html>

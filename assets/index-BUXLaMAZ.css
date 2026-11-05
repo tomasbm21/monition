@@ -21,3 +21,26 @@
 .pl-apply-form .wl-form textarea::placeholder {
   color: #6b6b6b;
 }
+
+
+/* The orange square on MONITION is the logo tittle. */
+.st-tittle{display:none!important}
+
+/* Phone layout follows Legora: centered wordmark, one quiet hero, less copy. Desktop is unchanged. */
+@media (max-width: 900px){
+  .st-nav-in{display:flex;justify-content:center;align-items:center;height:56px}
+  .st-nav-c{justify-self:center}
+  .st-nav-r{position:absolute;right:var(--s-side);top:0;height:100%;display:flex;align-items:center}
+  .st-nav-r .st-btn--sm{min-height:32px;padding:0 14px;font-size:0;line-height:0}
+  .st-nav-r .st-btn--sm:after{content:"Join";font-size:13px;line-height:1;font-weight:500}
+  .st-hero{min-height:100svh;padding-top:0;padding-bottom:28px}
+  .st-hero-scrim{background:linear-gradient(180deg,#0a0a0c47 0%,#0a0a0c14 34%,#0a0a0c8c 70%,#0a0a0ce0 100%)}
+  .st-hero-body{display:flex;flex-direction:column;align-items:center;text-align:center;width:100%;padding-bottom:8px}
+  .st-hero-head,.st-hero-copy{width:min(100%,22rem)}
+  .st-hero .st-eyebrow{display:none}
+  .st-hero-h1{font-size:34px;line-height:1.05;text-align:center}
+  .st-hero-sub{margin:14px auto 0;max-width:32ch;font-size:15px;line-height:1.35;text-align:center}
+  .st-hero-ctas{justify-content:center;margin-top:20px}
+  .st-hero-ctas .st-btn{min-height:36px;padding:0 18px;font-size:14px}
+  .st-hero-ctas .st-glass-link,.st-hero-aside,.st-hero .st-sources{display:none}
+}

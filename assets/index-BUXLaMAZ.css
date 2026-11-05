@@ -44,3 +44,16 @@
   .st-hero-ctas .st-btn{min-height:36px;padding:0 18px;font-size:14px}
   .st-hero-ctas .st-glass-link,.st-hero-aside,.st-hero .st-sources{display:none}
 }
+
+@media (max-width: 900px){
+  .st-tittle{display:none!important}
+  .st-hero .st-eyebrow,.st-hero-ctas .st-glass-link,.st-hero-aside,.st-hero .st-sources{display:none!important}
+  .st-hero-body{display:flex!important;flex-direction:column!important;align-items:center!important;text-align:center!important}
+  .st-hero-h1,.st-hero-sub{text-align:center!important}
+  .st-nav-in{display:flex!important;justify-content:center!important}
+  .st-nav-r .st-btn--sm{font-size:0!important}
+  .st-nav-r .st-btn--sm:after{content:"Join";font-size:13px!important;line-height:1!important;font-weight:500!important}
+}
+
+.wl-consent{display:flex;align-items:flex-start;gap:12px}
+.wl-consent-box{width:18px;height:18px;margin-top:4px;flex:none;accent-color:#0e0d0c}
